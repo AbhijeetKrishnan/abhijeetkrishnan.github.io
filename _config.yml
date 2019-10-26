@@ -290,6 +290,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      author: Abhijeet Krishnan
   # _pages
   - scope:
       path: ""
