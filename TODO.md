@@ -6,3 +6,4 @@
 - [] Link Resume to site
 - [] Add sample publications to test format
 - [] Add posts in blog
+- [] Add Projects page
