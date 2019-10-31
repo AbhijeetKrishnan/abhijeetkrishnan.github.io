@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] Add favicon
+- [x] Add favicon
 - [ ] Update logo
 - [x] Update CV
 - [x] Link Resume to site
