@@ -13,6 +13,7 @@
 theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+style                    : "davewhipp"
 
 # Site Settings
 locale                   : "en-US"
@@ -294,6 +295,13 @@ defaults:
   - scope:
       path: ""
       type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _cv
+  - scope:
+      path: ""
+      type: cv
     values:
       layout: single
       author_profile: true

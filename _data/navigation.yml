@@ -1,12 +1,14 @@
 # main links
 main:
   - title: "Home"
-    url: https://abhijeetkrishnan.github.io
+    url: /
   - title: "About"
     url: /about/
   - title: CV
     url: /cv/
   - title: Publications
     url: /publications/
+  - title: Projects
+    url: /projects/
   - title: Blog
     url: /blog/
