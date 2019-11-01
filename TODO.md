@@ -4,7 +4,7 @@
 - [ ] ~~Update logo~~ (no need for logo)
 - [x] Update CV
 - [x] Link Resume to site
-- [ ] Add sample publications to test format
+- [ ] ~~Add sample publications to test format~~ (already part of CV page)
 - [ ] Add posts in blog
 - [x] Add Projects page
 - [x] Setup tagging system (how to add tags, how to search by tags, clicking on tag)

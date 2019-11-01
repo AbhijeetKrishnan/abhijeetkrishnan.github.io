@@ -4,8 +4,6 @@ main:
     url: /about/
   - title: CV
     url: /cv/
-  - title: Publications
-    url: /publications/
   - title: Projects
     url: /projects/
   - title: Blog
