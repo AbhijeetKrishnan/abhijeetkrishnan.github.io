@@ -11,25 +11,23 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-style                    : "davewhipp"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Abhijeet Krishnan's Website"
 title_separator          : "-"
-subtitle                 : "At long last"
+subtitle                 : "Don't just consume. Create."
 name                     : "Abhijeet Krishnan"
-description              : "My online portfolio, along with my technical writing"
+description              : "My online portfolio"
 url                      : "https://abhijeetkrishnan.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "AbhijeetKrishnan"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png"
-masthead_title           : "Effortful Endeavours"
+logo                     : ""
+masthead_title           : "Antiquated Alliterations"
 breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 238 # https://psyarxiv.com/xynwg/
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -116,23 +114,17 @@ author:
       icon: "fas fa-fw fa-map-marker-alt"
       url: "https://goo.gl/maps/EN5nCMHb2cUZNQKu8"
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:akrish13@ncsu.edu"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:abhijeet.krishnan@gmail.com"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-globe"
       url: "https://abhijeetkrishnan.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "POEM Lab"
+      icon: "fas fa-fw fa-briefcase"
+      url: "https://sites.google.com/ncsu.edu/poem/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AbhijeetKrishnan"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
