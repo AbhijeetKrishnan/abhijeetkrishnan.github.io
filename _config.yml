@@ -12,7 +12,7 @@
 
 theme                  : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+style                    : "davewhipp"
 # Site Settings
 locale                   : "en-US"
 title                    : "Abhijeet Krishnan's Website"
@@ -125,6 +125,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AbhijeetKrishnan"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/abhijeet-krishnan"
 
 # Site Footer
 footer:
@@ -297,4 +300,4 @@ defaults:
       type: cv
     values:
       layout: single
-      author_profile: true
+      author_profile: false

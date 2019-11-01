@@ -44,7 +44,7 @@ body {
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    padding-right: 0; //right-sidebar-width;
   }
 
   .page__inner-wrap {
@@ -83,11 +83,6 @@ body {
 }
 
 .page__content {
-  h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
-  }
-
 	h1, h2, h3, h4, h5, h6 {
 		.header-link {
 			position: relative;
@@ -103,7 +98,52 @@ body {
 		&:hover .header-link {
 			opacity: 1;
 		}
-	}
+  }
+
+  #name {
+    font-size: 2em;
+  }
+
+  .institution {
+    font-size: 1em;
+    font-weight: bold;
+    width: auto;
+    white-space: nowrap;
+    float: left;
+    display: inline;
+    vertical-align: top;
+    height: auto;
+  }
+
+  .location {
+    font-size: 0.8em;
+    font-weight: normal;
+    float: right;
+    display: inline;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .position {
+    font-size: 0.8em;
+    font-weight: normal;
+    width: auto;
+    white-space: nowrap;
+    padding-top: 0%;
+    position: relative;
+  }
+
+  .date {
+    font-size: 0.8em;
+    font-weight: normal;
+    font-style: italic;
+    text-align: right;
+    position: relative;
+    width: auto;
+    white-space: nowrap;
+    float: right;
+    display: inline;
+  }
 
   p,
   li,
