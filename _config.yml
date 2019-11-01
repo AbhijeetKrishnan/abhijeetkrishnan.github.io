@@ -17,15 +17,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Abhijeet Krishnan's Website"
 title_separator          : "-"
-subtitle                 : "Don't just consume. Create."
+subtitle                 : ""
 name                     : "Abhijeet Krishnan"
-description              : "My online portfolio"
+description              : "Abhijeet Krishnan's Website"
 url                      : "https://abhijeetkrishnan.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "AbhijeetKrishnan"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : ""
-masthead_title           : "Antiquated Alliterations"
+masthead_title           : "Abhijeet Krishnan's Website"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 238 # https://psyarxiv.com/xynwg/
 comments:
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Abhijeet Krishnan"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "I am a person"
+  bio              : "Don't just consume. Create."
   links:
     - label: "Venture IV, Raleigh, NC"
       icon: "fas fa-fw fa-map-marker-alt"
