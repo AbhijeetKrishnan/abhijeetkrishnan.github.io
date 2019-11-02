@@ -15,17 +15,17 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 style                    : "davewhipp"
 # Site Settings
 locale                   : "en-US"
-title                    : "Abhijeet Krishnan"
+title                    : "Abhijeet's Website"
 title_separator          : "-"
 subtitle                 : ""
 name                     : "Abhijeet Krishnan"
-description              : "Abhijeet Krishnan's Website"
+description              : "Abhijeet's Website"
 url                      : "https://abhijeetkrishnan.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "AbhijeetKrishnan"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : ""
-masthead_title           : "Abhijeet Krishnan's Website"
+masthead_title           : "Abhijeet Krishnan"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 238 # https://psyarxiv.com/xynwg/
 comments:
