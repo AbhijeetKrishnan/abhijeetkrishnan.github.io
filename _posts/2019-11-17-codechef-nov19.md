@@ -36,7 +36,7 @@ I missed the constraint that the sum of $N + M + K$ over all test cases does not
 
 However, a greedy solution does not work for this problem. Consider the test case in [this](https://discuss.codechef.com/t/phcul-editorial/43712/20) comment. The greedy solution would choose the point $(9, 10)$ in the start, leading to a worse solution than the optimal first choice of $(11, 10)$.
 
-In light of this, as well as the constraints, it is clear that an $(T \cdot N \cdot M \cdot \lg(MAX))$ solution would also work. We just need to precompute some distances to reduce the complexity from cubic to quadratic. We can do this by finding the closest point in set $K$ from every point in sets $N$ and $M$, and iterating over every possible pair of points from sets $N$ and $M$. The final path for some ordered pair $(n, m)$ would be $start \rightarrow n \rightarrow m \rightarrow closest[m] \rightarrow finish$. 
+In light of this, as well as the constraints, it is clear that an $O(T \cdot N \cdot M \cdot \lg(MAX))$ solution would also work. We just need to pre-compute some distances to reduce the complexity from cubic to quadratic. We can do this by finding the closest point in set $K$ for each point in sets $N$ and $M$, and iterating over every possible pair of points in sets $N$ and $M$. The final path for some ordered pair $(n, m)$ would be $start \rightarrow n \rightarrow m \rightarrow closest[m] \rightarrow finish$. 
 
 This solution runs in $O(T \cdot (N \times M + (N + M) \times K) \cdot \lg(MAX))$.
 
@@ -85,6 +85,8 @@ Now, I simply traversed all square numbers from $N$ (the initial sum) to $81 \ti
 The time complexity of the initial pre-computation step is difficult to characterize since in the worst case it is $O(9^{40})$, but in practice, many values overlap and it runs significantly faster than that. The time complexity for the testing phase is $O(T \cdot 27 \cdot \sqrt{N} \cdot 9^{27})$. The $9^{27}$ factor is considering the maximum number of values at a particular level of the dictionary table, which again in practice is much smaller due to overlap. 
 
 [AC Solution](https://www.codechef.com/viewsolution/27779069)
+
+I haven't yet analyzed the [official editorial](https://discuss.codechef.com/t/lstbtf-editorial/43793).
 
 ## [FAILURE - Single Point of Failure](https://www.codechef.com/NOV19B/problems/FAILURE)
 
