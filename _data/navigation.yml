@@ -4,8 +4,8 @@ main:
     url: /blog/
   - title: CV
     url: /cv/
-# - title: Publications
-#   url: /publications/
+  - title: Publications
+    url: /publications/
   - title: Projects
     url: /projects/
   - title: About
