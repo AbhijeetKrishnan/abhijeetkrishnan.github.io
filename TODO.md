@@ -16,3 +16,4 @@
 - [ ] Setup analytics?
 - [ ] Setup Disqus comments?
 - [ ] Build standalone CV page css
+- [ ] Fix pdf title of AML paper
