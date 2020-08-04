@@ -17,3 +17,4 @@
 - [ ] Setup Disqus comments?
 - [ ] Build standalone CV page css
 - [ ] Fix pdf title of AML paper
+- [ ] Add PhD written paper
