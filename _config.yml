@@ -116,6 +116,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/abhijeet-krishnan"
+    - label: "Google Scholar"
+      icon: "fas fa-user-graduate"
+      url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=rSPCHKIAAAAJ"
 
 # Site Footer
 footer:

@@ -4,17 +4,17 @@
 - [ ] ~~Update logo~~ (no need for logo)
 - [x] Update CV
 - [x] Link Resume to site
-- [ ] ~~Add sample publications to test format~~ (already part of CV page)
+- [x] ~~Add sample publications to test format~~ (already part of CV page)
 - [ ] Add posts in blog
 - [x] Add Projects page
 - [x] Setup tagging system (how to add tags, how to search by tags, clicking on tag)
-- [ ] ~~Fix theme build warnings~~ (went away on their own somehow...)
+- [x] ~~Fix theme build warnings~~ (went away on their own somehow...)
 - [ ] ~~Build CV scss file~~ (too time-consuming to get the elements perfectly positioned, linking to html page with custom styling instead)
 - [x] Identify and remove extraneous files
 - [ ] ~~Setup remote theme to reduce footprint~~ (better to keep repo locally for any changes which require theme file changes)
-- [ ] Update About
+- [x] Update About
 - [ ] Setup analytics?
 - [ ] Setup Disqus comments?
-- [ ] Build standalone CV page css
+- [ ] ~~Build standalone CV page css~~
 - [ ] Fix pdf title of AML paper
-- [ ] Add PhD written paper
+- [x] Add PhD written paper
