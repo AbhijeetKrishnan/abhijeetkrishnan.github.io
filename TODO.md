@@ -18,3 +18,7 @@
 - [ ] ~~Build standalone CV page css~~
 - [ ] Fix pdf title of AML paper
 - [x] Add PhD written paper
+
+# INFO
+
+Run with `bundle exec jekyll serve`
