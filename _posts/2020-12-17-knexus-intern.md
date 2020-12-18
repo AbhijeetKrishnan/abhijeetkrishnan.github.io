@@ -42,13 +42,15 @@ We struggled with coming up with a useful evaluation metric for our system. Narr
 
 Our final presentation consisted of a full system technical and theoretical description to the rest of the employees at Knexus, and a demo of the system. The response was encouraging, and we received some useful feedback regarding the system and its output.
 
-Overall, I greatly enjoyed [my time](https://www.linkedin.com/feed/update/urn:li:activity:6567425757860114432/) at Knexus. I learned a lot from my mentors and teammates, especially given how diverse their background and experience were. I sharpened my software development skills in Python, having developed an application and tests with 500+ LOC and learned about [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) and good version control practices that I've begun using on personal projects ever since. I liked working on the story graph generation algorithm as it was a fun diversion from software dev tasks. I learned the importance of good communication considering different, and even non-CS backgrounds, since I had to communicate with a Humanities graduate, and a PhD steeped in a different dev environment than I was used to. I learned the importance of good presentation from my mentors who encouraged me to develop GUI for our final system demo, instead of the terminal-based application I was planning to use.
+Overall, I greatly enjoyed [my time](https://www.linkedin.com/feed/update/urn:li:activity:6567425757860114432/) at Knexus. I learned a lot from my mentors and teammates, especially given how diverse their backgrounds and experiences were. I sharpened my software development skills in Python, having developed an application and tests with 500+ LOC and learned about [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) and good version control practices that I've begun using on personal projects ever since. I liked working on the story graph generation algorithm as it was a fun diversion from software dev tasks. I learned the importance of good communication considering different, and even non-CS backgrounds, since I had to communicate with a Humanities graduate, and a PhD steeped in a different dev environment than I was used to. I learned the importance of good presentation from my mentors who encouraged me to develop a GUI for our final system demo, instead of the terminal-based application I was planning to use.
 
 And I explored a *lot* of Washington D.C.
 
-![An excursion around Washington D.C.](/assets/img/collage_dc.jpg "An excursion around Washington D.C.")
+![An excursion around Washington D.C.](/assets/images/collage_dc.jpg "An excursion around Washington D.C.")
 
 *[S/W]: software
+*[GUI]: graphical user interface
+
 [^1]: Campbell, Joseph. The hero with a thousand faces. Vol. 17. New World Library, 2008.
 [^2]: Aristotle. “The Poetics of Aristotle.” Translated by S. H. Butcher, The Poetics of Aristotle, by Aristotle, www.gutenberg.org/files/1974/1974-h/1974-h.htm.
 [^3]: Freytag, Gustav. Die technik des dramas. S. Hirzel, 1894.
