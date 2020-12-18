@@ -40,7 +40,7 @@ Why do we get back `True`? This would mean that both `a` and `b` in fact point t
 
 Why do we get a different answer by merely changing the literal `1` to `-10`? This implies that the integer objects created for `1` are merely references to the same object, while the objects created for `-10` are in fact unique. If we look through the documentation[^2], we find the following -
 
-> The current implementation keeps an array of integer objects for all integers between `-5` and `256`, when you create an int in that range you actually just get back a reference to the existing object.
+> The current implementation keeps an array of integer objects for all integers between `-5` and `256`, when you create an int in that range you just get back a reference to the existing object.
 
 This explains our findings perfectly. Python maintains an array of integer objects between $-5$ to $256$. In the first snippet, we were attempting to create integer objects for $1$, which lies in that range, so we were simply getting back a reference to the pre-allocated object. In the second snippet, when we attempted to create an integer object for $-10$, we got back a reference for a completely new object, since $-10$ lies outside the range of these pre-allocated objects.
 
@@ -59,7 +59,7 @@ So how might we explore this range further? Is it possible to optimize the range
 1. disable PAIOC in the $[-5, 256]$ range
 2. instrument integer object creation to record frequency of object creation per value
 3. use the resulting build of CPython to execute a variety of Python programs
-4. observe the measured frequencies, and use it to determine a range.
+4. observe the measured frequencies and use it to determine a range.
 
 Let's examine each step in detail.
 
@@ -71,7 +71,7 @@ To find the relevant part of the source code, I was led by [this](https://stacko
 
 However, this version of the code is old ([v3.7.0a1](https://github.com/python/cpython/tree/v3.7.0a1) released on Sep 18, 2017), and the latest version instead defines the [constants](https://github.com/python/cpython/blob/v3.9.1/Objects/longobject.c#L20-L21) in terms of other constants defined [elsewhere](https://github.com/python/cpython/blob/v3.9.1/Include/internal/pycore_interp.h#L67-L68). [ripgrep](https://github.com/BurntSushi/ripgrep) helps a lot with navigating a codebase as large as this.
 
-It turns out disabling PAIOC is fairly easy. Just change the constants `_PY_NSMALLPOSINTS` and `_PY_NSMALLNEGINTS` to `0`. This is because the Python devs, in their infinite wisdom, have guarded all accesses to the pre-allocated integer array (names `small_ints` in the code) with the check that the range be of length $> 1$.
+It turns out disabling PAIOC is easy. Just change the constants `_PY_NSMALLPOSINTS` and `_PY_NSMALLNEGINTS` to `0`. This is because the Python devs, in their infinite wisdom, have guarded all accesses to the pre-allocated integer array (names `small_ints` in the code) with the check that the range be of length $> 1$.
 
 ## Instrumenting Integer Object Creation
 
