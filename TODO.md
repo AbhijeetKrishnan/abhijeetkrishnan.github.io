@@ -5,7 +5,7 @@
 - [x] Update CV
 - [x] Link Resume to site
 - [x] ~~Add sample publications to test format~~ (already part of CV page)
-- [ ] Add posts in blog
+- [x] Add posts in blog
 - [x] Add Projects page
 - [x] Setup tagging system (how to add tags, how to search by tags, clicking on tag)
 - [x] ~~Fix theme build warnings~~ (went away on their own somehow...)
@@ -16,9 +16,9 @@
 - [ ] Setup analytics?
 - [ ] Setup Disqus comments?
 - [ ] ~~Build standalone CV page css~~
-- [ ] Fix pdf title of AML paper
+- [x] Fix pdf title of AML paper
 - [x] Add PhD written paper
 
-# INFO
+## INFO
 
 Run with `bundle exec jekyll serve`
