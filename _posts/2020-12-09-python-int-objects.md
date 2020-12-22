@@ -109,7 +109,7 @@ Generating these benchmarks such that they can be reproduced is a tricky affair[
 sudo python -m pyperf system tune
 ```
 
-A comparison generated using `pyperformance` between the v3.9.1 build and the version without pre-allocated integers can be found [here](/assets/docs/default_vs_no_int_comparison.txt). The latter is significantly[^7] slower on almost all benchmarks. A comparison between the v3.9.1 build and a version with PAIOC range $[-10^6, 10^6]$ is given [here](/assets/docs/default_vs_wide_int_comparison.txt). This too is significantly slower on all benchmarks, probably due to the time taken for PAIOC (the `python_startup` benchmarks are more than 20x slower). We will have to balance the additional start-up time incurred from increasing the range with the speed-up gained due to fewer PAIOC calls.
+A comparison generated using `pyperformance` between the v3.9.1 build and the version without pre-allocated integers can be found [here](/assets/docs/default_vs_no_int_comparison.txt). The latter is significantly[^7] slower on almost all benchmarks. A comparison between the v3.9.1 build and a version with PAIOC range $[-10^6, 10^6]$ is given [here](/assets/docs/default_vs_wide_int_comparison.txt). This too is significantly slower on all benchmarks, probably due to the time taken for PAIOC (the `python_startup` benchmarks are more than 20x slower). We will have to balance the additional start-up time incurred from increasing the range with the speed-up gained due to fewer integer object creation calls.
 
 ## Results & Analysis
 
