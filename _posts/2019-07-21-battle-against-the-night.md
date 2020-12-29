@@ -3,6 +3,9 @@ title: Battle Against the Night
 tags: creative-writing poetry  
 ---
 
+This poem was accepted to [Windhover 2020](https://windhover.ncsu.edu/windhover-2020/), NC State's literary and art magazine. It also won 1st place in [Scribbling Saga](https://www.facebook.com/AarohiWorld/posts/2365614916819935), a poetry competition organized by Aarohi 2019, VNIT's annual cultural festival.
+{: .notice}
+
 Still-born gasp of my mother's womb,  
 Dark night did forever last;  
 Half-formed babe in half-formed tomb,  
