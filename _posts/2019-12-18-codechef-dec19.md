@@ -2,9 +2,8 @@
 title: Codechef December 2019 Long Contest (Div. 1)
 tags: competitive-programming codechef dec19a
 mathjax: true
+excerpt: "An editorial for the Dec '19 Div. 1 long contest on Codechef."
 ---
-
-# Editorial
 
 ## [BINXOR - Binary XOR](https://www.codechef.com/DEC19A/problems/BINXOR/)
 
@@ -35,6 +34,5 @@ This problem again made me think of a number of different approaches such as DSU
 We do this by entering all start and end points into a single list, with some additional mechanism to differentiate between a start point and an end point (I turned each point into a pair with the second element representing whether it was a start point or end point). Start points must be placed before end points of the same value. We then iterate through this list of points, while maintaining a count of active ranges at some point. If we encounter a start point, we have entered a range and increment our count of active ranges. If we encounter our end point, we have exited a range and decrement our count of active ranges. We can now decide if we want to remove all active ranges, and thus update a variable containing the minimum number of active ranges at a point. Finally, we return this minimum.
 
 The time complexity should be $O(T \cdot N \log n)$.
-
 
 [AC Solution](https://www.codechef.com/viewsolution/28296886)

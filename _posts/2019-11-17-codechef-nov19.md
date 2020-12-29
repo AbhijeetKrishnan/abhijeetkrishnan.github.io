@@ -2,9 +2,8 @@
 title: Codechef November 2019 Long Contest (Div. 2)
 tags: competitive-programming codechef nov19b
 mathjax: true
+excerpt: "An editorial for the Nov '19 Div. 2 long contest on Codechef."
 ---
-
-# Editorial
 
 ## [SC31 - Weapon Value](https://www.codechef.com/NOV19B/problems/SC31/)
 

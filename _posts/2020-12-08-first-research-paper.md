@@ -2,6 +2,7 @@
 title: My First Publication
 tags: research deep-dive personal
 mathjax: true
+excerpt: "A retrospective on the problem-solving path that led to my first publication."
 ---
 
 I submitted my first research paper to the [16th AIIDE](https://webdocs.cs.ualberta.ca/~santanad/aiide/) conference on May 28th, 2020 at 7:40 PM GMT. It had been nearly a year's worth of work that had gone into the paper. I would like to share the research journey which culminated in the final publication.

@@ -2,6 +2,7 @@
 title: Integer Objects in Python
 tags: python deep-dive
 mathjax: true
+excerpt: "An investigation into a curious implementataion detail of Python integer objects, and a quantitative explanation of the choices behind it."
 ---
 
 Try predicting the output of the following Python snippet -

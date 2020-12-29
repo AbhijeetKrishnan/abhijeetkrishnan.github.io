@@ -2,6 +2,7 @@
 title: My Internship at Knexus Research
 tags: knexus, intern, personal, deep-dive
 mathjax: true
+excerpt: "A description of my time interning with Knexus Research, the problem I solved, and what I learned"
 ---
 
 I interned at [Knexus Research](https://knexusresearch.com/) for 2 months from June 1, 2019 to Aug 9, 2019. The internship was very fruitful, and I managed to improve my software development, research, and teamwork skills. I also managed to explore a *lot* of Washington D.C.
