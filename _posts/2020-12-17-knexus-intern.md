@@ -52,6 +52,6 @@ And I explored a *lot* of Washington D.C.
 *[GUI]: graphical user interface
 
 [^1]: Campbell, Joseph. The hero with a thousand faces. Vol. 17. New World Library, 2008.
-[^2]: Aristotle. “The Poetics of Aristotle.” Translated by S. H. Butcher, The Poetics of Aristotle, by Aristotle, www.gutenberg.org/files/1974/1974-h/1974-h.htm.
+[^2]: Aristotle. "The Poetics of Aristotle." Translated by S. H. Butcher, The Poetics of Aristotle, by Aristotle, www.gutenberg.org/files/1974/1974-h/1974-h.htm.
 [^3]: Freytag, Gustav. Die technik des dramas. S. Hirzel, 1894.
 [^4]: Meehan, James R. "TALE-SPIN, An Interactive Program that Writes Stories." Ijcai. Vol. 77. 1977.
