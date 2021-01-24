@@ -1,12 +1,12 @@
 ---
-title: Paper Summary - An Evaluation of the Human-Interpretability of Explanation by Lage et. al.
+title: Paper Summary - An Evaluation of the Human-Interpretability of Explanation by Lage et. al. (2019)
 tags: paper-summary
 mathjax: true
-excerpt: "Summarizing and providing my notes on the paper - *An Evaluation of the Human-Interpretability of Explanation* by Lage et. al."
+excerpt: "Summarizing and providing my notes on the paper - *An Evaluation of the Human-Interpretability of Explanation* by Lage et. al. (2019)"
 ---
 
 Lage, Isaac, et al. "An evaluation of the human-interpretability of explanation." *arXiv preprint arXiv:1902.00006* (2019). [<i class="far fa-file-pdf"></i>](https://arxiv.org/pdf/1902.00006.pdf)
-{: .notice}
+{: .notice--info}
 
 ## Why I'm reading this paper
 
