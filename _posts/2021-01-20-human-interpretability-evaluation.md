@@ -21,8 +21,8 @@ The paper is trying to find general design principles for explanations which are
 The paper focuses on analysing the effects of explanations embodied by *decision sets*. Decision sets (or rule sets) are simply lists of if-then rules specified using first-order logic. Reproducing Figure 1 from the paper below -
 
 $$
-(calm \lor nodding) \land sunny \rightarrow (spices \lor vegetables) \land grains \\
-(rainy \land grumpy) \lor calm \rightarrow dairy \lor vegetables
+\displaylines{(calm \lor nodding) \land sunny \rightarrow (spices \lor vegetables) \land grains \\
+(rainy \land grumpy) \lor calm \rightarrow dairy \lor vegetables}
 $$
 
 The variables in the LHS represent features of the input, and those in the RHS represent features of the output. In the context of medical decision support, we might imagine input features like `respiratory-illness == Yes`, `risk-depression == Yes` and `BMI` $\geq$ `0.2`, and output features like `Depression`, `Diabetes` and `Lung Cancer` (basically representing diagnoses). These examples were sourced from the paper by [Lakkaraju et. al., 2016](https://www-cs-faculty.stanford.edu/people/jure/pubs/interpretable-kdd16.pdf), so check out their paper for more details.
