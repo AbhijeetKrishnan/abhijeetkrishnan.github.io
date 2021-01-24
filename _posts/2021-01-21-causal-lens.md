@@ -1,8 +1,8 @@
 ---
-title: Paper Summary - Explainable Reinforcement Learning Through a Causal Lens by Madumal et. al.
+title: Paper Summary - *Explainable Reinforcement Learning Through a Causal Lens* by Madumal et. al. (2020)
 tags: paper-summary
 mathjax: true
-excerpt: "Summarizing and providing my notes on the paper - *Explainable Reinforcement Learning Through a Causal Lens* by Madumal et. al."
+excerpt: "Summarizing and providing my notes on the paper - Explainable Reinforcement Learning Through a Causal Lens by Madumal et. al. (2020)"
 ---
 
 Madumal, P., Miller, T., Sonenberg, L., & Vetere, F. (2020, April). Explainable reinforcement learning through a causal lens. In *Proceedings of the AAAI Conference on Artificial Intelligence* (Vol. 34, No. 03, pp. 2493-2500). [<i class="far fa-file-pdf"></i>](https://ojs.aaai.org/index.php/AAAI/article/view/5631/5487)
