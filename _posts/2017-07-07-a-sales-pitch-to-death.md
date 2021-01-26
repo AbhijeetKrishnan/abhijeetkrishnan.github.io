@@ -4,7 +4,7 @@ tags: creative-writing short-story
 ---
 
 This story was originally submitted to the [TOI Write India Season 2](https://timesofindia.indiatimes.com/life-style/books/writeindia/season2.cms) contest for [Anand Neelakantan](https://timesofindia.indiatimes.com/life-style/books/writeindia/season-2/writeindiaauthor/57084985.cms), where it won a [special mention](https://timesofindia.indiatimes.com/life-style/books/writeindia/season-2/season2winner.cms?authid=60389833).
-{: .notice}
+{: .notice--info}
 
 I’ve made many sales pitches over the years, but I never expected to be making one to Death himself.
 
