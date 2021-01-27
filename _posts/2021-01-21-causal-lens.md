@@ -45,6 +45,9 @@ This model generates local explanations i.e., explanations for a single decision
 Perhaps a model of the explainee could serve to guide *how* to present the causal chain as an explanation.
 {: .notice--success}
 
+It seems the explanation is only defined in terms of the causal DAG, which has to be hand-designed. The structural causal equations serve only to *quantify* how much an action influences a causal relationship between two state variables, and this information is not used in the explanation. I wonder if adding this information would improve the explanation. As it stands, all informtion used in the explanation comes from the hand-written causal DAG alone. Every action can be assumed to have some influence i.e. we can label an edge in the causal DAG with every possible action, and learn separate sets of structural causal equations for each of them.
+{: .notice--warning}
+
 ### Counterfactual Explanation Generation
 
 A counterfactual explanation is the explanation of "Why not B?" given a decision A taken by the agent. A counterfactual explanation as defined in the paper is, given a model $M$, an action $a$ and a counterfactual action $b$, the difference between the causal paths taken from the head nodes of edges labelled $a$ and $b$. Basically, we follow the process of generating explanations for $a$ and $b$ using $M$ and return their difference.
@@ -66,7 +69,7 @@ This way of doing task prediction seems incorrect for two reasons -
 
 <div class="notice--danger">{{ notice-danger | markdownify }}</div>
 
-## Computational Evaluation
+### Computational Evaluation
 
 The paper presents a computational evaluation of the action influence model using task prediction for several RL benchmarks. It calculates the model's accuracy and runtime. It performs reasonably well, although these metrics are not too valuable for its purpose. The benchmarks also have small action spaces, which might misrepresent the capabilities of the algorithm.
 
