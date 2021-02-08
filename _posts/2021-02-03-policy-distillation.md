@@ -30,7 +30,7 @@ model $S$. This implies that the teacher model must be able to output $Q$-values
 observation.
 
 If we use neural networks, they must classify the observed state into an action. The preceding layer
-before softmax must therefore be a indicative of a $Q$-function since it is a state-dependent
+before softmax must therefore be indicative of a $Q$-function since it is a state-dependent
 distribution over the actions. It is probably not necessarily correlated with the actual expected
 rewards, it could be very unstable and unbounded.
 {: .notice}
@@ -72,7 +72,7 @@ student model which have different properties.
 
     The sharpening here is very similar to sharpening done with images, such that it is easier to
     threshold them later. Sharpening the $Q$-values is so that it becomes easier to select the correct
-    action i.e. the one taken by $T$. I'm not sure how softening it helps with learning "secondary"
+    action i.e., the one taken by $T$. I'm not sure how softening it helps with learning "secondary"
     knowledge, but I can refer to Hinton's paper for more details.
     {: .notice}
 
@@ -81,16 +81,16 @@ student model which have different properties.
     $$
 
 For multi-task policy distillation, the paper recommends using single-task networks trained separately
-on each task, and generating a combined dataset which the student model learns from. The authors
+on each task and generating a combined dataset which the student model learns from. The authors
 experiment with KL and NLL loss functions and also compare the performance of a multi-agent distillation
-agent with a multi-agent DQN agent (i.e. a DQN agent trained using the same combined dataset).
+agent with a multi-agent DQN agent (i.e., a DQN agent trained using the same combined dataset).
 
 ## Experimental Setup
 
 The authors use a number of games from the Atari benchmarks, selecting games along the spectrum for
-which SOTA methods perform compared to human benchmarks i.e. games where they achieve superhuman
-performance (e.g. Breakout, Space Invaders) to games where they achieve below-human performance
-(e.g. Q*bert, Ms. Pacman).
+which SOTA methods perform compared to human benchmarks i.e., games where they achieve superhuman
+performance (e.g., Breakout, Space Invaders) to games where they achieve below-human performance
+(e.g., Q*bert, Ms. Pacman).
 
 To avoid issues of memorization of starting states, the authors used starting states generated from
 expert-human play.
@@ -135,7 +135,7 @@ This method seems similar to how models were learned in both Madumal et. al. (20
 (2018). It might of course be the paper that influenced or initiated the use of policy distillation
 in all those later papers. The main take-away seems to be the use of KL-divergence as the loss function.
 Potentially, reducing the model size might also help. However, the key to me is to generate useful
-explaations, which requires a model amenable to doing so. The training of that model might very well
+explanations, which requires a model amenable to doing so. The training of that model might very well
 have to change depending on its nature. Policy distillation obviously applies to models which update
 weights using gradient descent (which models don't nowadays?) and also require a teacher model which
 produces $Q$-value vectors (if using KL-divergence).
