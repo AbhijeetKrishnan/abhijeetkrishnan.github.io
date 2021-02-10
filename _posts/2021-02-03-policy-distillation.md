@@ -6,7 +6,7 @@ excerpt: "Summarizing and providing my notes on the paper - Policy Distillation 
 ---
 
 Rusu, A. A., Colmenarejo, S. G., Gulcehre, C., Desjardins, G., Kirkpatrick, J., Pascanu, R., ... & Hadsell, R. (2015).
-Policy distillation. *arXiv preprint arXiv:1511.06295*. [<i class="far fa-file-pdf"></i>](https://arxiv.org/pdf/1511.06295))
+Policy distillation. *arXiv preprint arXiv:1511.06295*. [<i class="far fa-file-pdf"></i>](https://arxiv.org/pdf/1511.06295)
 {: .notice--info}
 
 ## My Objectives
