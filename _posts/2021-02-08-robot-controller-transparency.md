@@ -58,7 +58,7 @@ example of these in the CartPole domain are "pole falling left/right", "pole sta
 moving left/right" etc.
 
 These predicates are used to produce a DNF formula which represents a boolean function that is true
-for a given set of states, and false for another. If these groups of sets have some meaning, say, if
+for a given set of states, and false for another. If these groups of sets have some common property, say, if
 they are the sets in which a particular action is frequently taken, then the resulting DNF formula
 becomes the explanation for *why* that action was taken in terms of the communicable predicates. If
 we further apply the templates based on the query and predicate, we can generate a natural language
@@ -144,9 +144,9 @@ The authors propose as future work -
 1. using parsed natural language descriptions of valid task strategies to map advice down to state
 regions for biasing exploration during policy learning
 
-This is unclear, but since it deals with a better way to learn the agent policy, it is not too
-important to understand since any SOTA method will work.
-{: .notice}
+    This is unclear, but since it deals with a better way to learn the agent policy, it is not too
+    important to understand since any SOTA method will work.
+    {: .notice}
 
 2. explaining human behaviour using inverse RL
 
@@ -156,9 +156,9 @@ important to understand since any SOTA method will work.
 
 This paper devotes an entire section to describe how they add logging to an existing agent code in
 order to obtain the $(s, a, s')$ tuples used to learn the agent policy. This is unnecessary since
-most RL setups utilize an environment which provides an interface to provide and action and receive
+most RL setups utilize an environment which includes an interface to input the action and receive
 the reward and the next state. This logging is already in-built into most RL libraries in use today
-like OpenAI Gym. It is not novel.
+like OpenAI Gym. It is a solved problem.
 
 ### Lack of explanation evaluation
 
