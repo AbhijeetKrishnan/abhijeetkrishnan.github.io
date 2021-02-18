@@ -196,7 +196,7 @@ meaningless to any human (e.g., I moved up because pixel (1, 1) and pixel (2, 1)
 ### Focus on natural language explanation
 
 I found the focus on providing natural language queries and explanation unnecessary. Neither does
-the paperneed it, nor does it actually use it in any meaningful way. Template-based string
+the paper need it, nor does it actually use it in any meaningful way. Template-based string
 generation is a very crude way of doing it and not worth focusing on. The queries are also seemingly
 provided in terms of just the parameters since there is no mention of a parsing and identification
 algorithm from natural language.
