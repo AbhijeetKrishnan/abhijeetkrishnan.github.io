@@ -47,7 +47,7 @@ terminal states. These represent sub-goals which are learned by the agent as par
 Arrows are drawn from the entry to terminal states of a cluster. An example of this visualization
 from the paper for the Atari game Breakout is shown below.
 
-![Figure 2 from Zahavy et. al. (2016)](/assets/images/fig-2-zahavy.png "Figure 2 from the Zahavy et. al. (2016)")
+![Figure 2 from Zahavy et. al. (2016)](/assets/images/fig-2-zahavy.png "Figure 2 from Zahavy et. al. (2016)")
 
 The method of identification of these clusters is not mentioned in the paper.
 {: .notice--warning}
