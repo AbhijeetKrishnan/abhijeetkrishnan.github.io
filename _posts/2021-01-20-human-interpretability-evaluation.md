@@ -1,6 +1,6 @@
 ---
 title: Paper Summary - *An Evaluation of the Human-Interpretability of Explanation* by Lage et. al. (2019)
-tags: paper-summary
+tags: paper-summary xai interpretability
 mathjax: true
 excerpt: "Summarizing and providing my notes on the paper - An Evaluation of the Human-Interpretability of Explanation by Lage et. al. (2019)"
 ---

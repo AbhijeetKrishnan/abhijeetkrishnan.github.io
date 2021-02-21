@@ -1,7 +1,7 @@
 ---
 title: "Paper Summary - *Distilling Deep Reinforcement Learning Policies in Soft Decision Trees* by
 Coppens et. al. (2019)"
-tags: paper-summary
+tags: paper-summary xrl-technique
 mathjax: true
 excerpt: "Summarizing and providing my notes on the paper - Distilling Deep Reinforcement Learning
 Policies in Soft Decision Trees by Coppens et. al. (2019)"

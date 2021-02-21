@@ -1,6 +1,6 @@
 ---
 title: Paper Summary - *Policy Distillation* by Rusu et. al. (2016)
-tags: paper-summary
+tags: paper-summary xrl
 mathjax: true
 excerpt: "Summarizing and providing my notes on the paper - Policy Distillation by Rusu et. al. (2016)"
 ---

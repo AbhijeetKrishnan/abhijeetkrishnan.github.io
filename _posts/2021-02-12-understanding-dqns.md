@@ -1,6 +1,6 @@
 ---
 title: "Paper Summary - *Graying the black box: Understanding DQNs* by Zahavy, Ben-Zrihem & Mannor (2016)"
-tags: paper-summary
+tags: paper-summary xrl-technique
 mathjax: true
 excerpt: "Summarizing and providing my notes on the paper - Graying the black box: Understanding DQNs by Zahavy, Ben-Zrihem & Mannor (2016)"
 ---

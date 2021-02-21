@@ -1,7 +1,7 @@
 ---
 title: "Paper Summary - *Contrastive explanations for reinforcement learning in terms of expected
 consequences* by van der Waa et. al. (2018)"
-tags: paper-summary
+tags: paper-summary xrl-technique
 mathjax: true
 excerpt: "Summarizing and providing my notes on the paper - Contrastive explanations for 
 reinforcement learning in terms of expected consequences by  van der Waa et. al. (2018)"

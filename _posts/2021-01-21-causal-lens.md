@@ -1,6 +1,6 @@
 ---
 title: Paper Summary - *Explainable Reinforcement Learning Through a Causal Lens* by Madumal et. al. (2020)
-tags: paper-summary
+tags: paper-summary xrl-technique
 mathjax: true
 excerpt: "Summarizing and providing my notes on the paper - Explainable Reinforcement Learning Through a Causal Lens by Madumal et. al. (2020)"
 ---

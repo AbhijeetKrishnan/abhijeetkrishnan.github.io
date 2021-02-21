@@ -1,6 +1,6 @@
 ---
 title: "Paper Summary - *Improving Robot Controller Transparency Through Autonomous Policy Explanation* by Hayes & Shah (2017)"
-tags: paper-summary
+tags: paper-summary xrl-technique
 mathjax: true
 excerpt: "Summarizing and providing my notes on the paper - Improving Robot Controller Transparency Through Autonomous Policy Explanation by Hayes & Shah (2017)"
 ---
