@@ -8,6 +8,7 @@ excerpt: "Summarizing and providing my notes on the paper - Graying the black bo
 Zahavy, T., Ben-Zrihem, N., & Mannor, S. (2016, June). Graying the black box: Understanding dqns. In
 *International Conference on Machine Learning* (pp. 1899-1908). PMLR.
 [<i class="far fa-file-pdf"></i>](http://proceedings.mlr.press/v48/zahavy16.pdf)
+[<i class="fab fa-github"></i>](https://github.com/TomZahavy/GrayingTheBox)
 {: .notice--info}
 
 ## My Objectives
