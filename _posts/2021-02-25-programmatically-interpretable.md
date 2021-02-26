@@ -1,6 +1,6 @@
 ---
 title: "Paper Summary - *Programmatically Interpretable Reinforcement Learning* by Verma et. al. (2018)"
-tags: paper-summary
+tags: paper-summary xrl-technique
 mathjax: true
 excerpt: "Summarizing and providing my notes on the paper - Programmatically Interpretable
 Reinforcement Learning by Verma et. al. (2018)"
@@ -35,22 +35,22 @@ NDPS is described using the below algorithm, reproduced from Algorithm 1 in the 
 
 > Input: POMDP $M$, neural policy $e_{\mathcal{N}}$, sketch $\mathcal{S}$
 >
-> $\mathcal{H} \leftarrow \mathtt{create\_histories}(e_{\mathcal{N}}, M)$  
+> $\mathcal{H} \leftarrow \mathtt{create\\\_histories}(e\_{\mathcal{N}}, M)$  
 > $e \leftarrow \mathtt{initialize}(e_{\mathcal{N}}, \mathcal{H}, M, \mathcal{S})$  
-> $R \leftarrow \mathtt{collect\_reward}(e, M)$  
+> $R \leftarrow \mathtt{collect\\\_reward}(e, M)$  
 > **repeat**  
 > $\qquad (e', R') \leftarrow (e, R)$  
-> $\qquad \mathcal{H} \leftarrow \mathtt{update\_histories}(e, e_{\mathcal{N}}, M, \mathcal{H})$  
-> $\qquad \mathcal{E} \leftarrow \mathtt{neighbourhood\_pool}(e)$  
-> $\qquad e \leftarrow \argmin_{e' \in \mathcal{E}} \sum_{h \in \mathcal{H}} || e'(h) - e_{\mathcal{N}}(h)||$  
-> $\qquad R \leftarrow \mathtt{collect\_reward}(e, M)$  
+> $\qquad \mathcal{H} \leftarrow \mathtt{update\\\_histories}(e, e_{\mathcal{N}}, M, \mathcal{H})$  
+> $\qquad \mathcal{E} \leftarrow \mathtt{neighbourhood\\\_pool}(e)$  
+> $\qquad e \leftarrow \underset{e' \in \mathcal{E}}{argmin} \sum_{h \in \mathcal{H}} || e'(h) - e_{\mathcal{N}}(h)||$  
+> $\qquad R \leftarrow \mathtt{collect\\\_reward}(e, M)$  
 > **until** $R' \geq R$  
-> **Output:** $e'$
+> **Output:** $e'$  
 
-- $M$ is the environment modelled as a POMDP $(\mathcal{S}, \mathcal{A}, \mathcal{O}, T(\cdot|s,a), Z(\cdot|s), r, Init, \gamma$).
+- $M$ is the environment modelled as a POMDP $(\mathcal{S}, \mathcal{A}, \mathcal{O}, T(\cdot\|s,a), Z(\cdot\|s), r, Init, \gamma$).
 - $e_{\mathcal{N}}$ is a DRL agent trained on $M$ which serves as a *neural oracle*. NDPS tries to
 generate programs which imitate $e_{\mathcal{N}}$.
-- $\mathtt{create\_histories}$ runs $e_{\mathcal{N}}$ in $M$ to generate a sample set of trajectories.
+- $\mathtt{create\\\_histories}$ runs $e_{\mathcal{N}}$ in $M$ to generate a sample set of trajectories.
 - $\mathtt{initialize}$ generates a set of sample program policies using *template enumeration* and
 *parameter optimization*, simulates each of them using $M$ and returns the one which achieves the
 highest reward.
@@ -60,9 +60,9 @@ Presumably, this involves generating strings from the CFG and optimizing the con
 SGD.
 {: .notice--warning}
 
-- $\mathtt{collect\_reward}$ is simply to represent the total reward received by the agent over an
+- $\mathtt{collect\\\_reward}$ is simply to represent the total reward received by the agent over an
 episode
-- $\mathtt{update\_histories}$ uses a heuristic to select "interesting" observations from the trajectory
+- $\mathtt{update\\\_histories}$ uses a heuristic to select "interesting" observations from the trajectory
 of $e$. Corresponding actions for each observation are obtained using $e_{\mathcal{N}}$, and are
 used to augment $\mathcal{H}$ (input augmentation). This is done to ensure the subsequent distance
 between $e$ and $e_{\mathcal{N}}$ is greater, as the suboptimal states which $e$ visits that
@@ -73,7 +73,7 @@ trajectory, without really elaborating on what makes these inputs interesting. T
 be to select inputs $h$ for which $|| e'(h) - e_{\mathcal{N}}(h)||$ is as high as possible.
 {: .notice--warning}
 
-- $neighbourhood\_pool$ generates a set of sample program policies similarly to $\mathtt{initialize}$
+- $\mathtt{neighbourhood\\\_pool}$ generates a set of sample program policies similarly to $\mathtt{initialize}$
 - the selected policy is the one which has the least distance from $e_{\mathcal{N}}$ as measured
 using the distance metric
 
