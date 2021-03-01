@@ -90,7 +90,7 @@ The sketches used for this domain provide a basic structure of a proportional-in
 last 5 observations of the history, and has precedent in the automatic error reset strategy of discrete
 PID controllers.
 
-$\mathtt{update\_histories}$ simply captures all inputs from the program agent trajectory.
+$\mathtt{update\\\_histories}$ simply captures all inputs from the program agent trajectory.
 
 The authors also evaluate NDPS in three classic control environments. However, the results are present
 in an appendix which do not appear in this paper.
