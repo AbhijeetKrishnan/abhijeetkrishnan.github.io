@@ -71,7 +71,7 @@ student model which have different properties.
     secondary knowledge to be learned.
 
     The sharpening here is very similar to sharpening done with images, such that it is easier to
-    threshold them later. Sharpening the $Q$-values is so that it becomes easier to select the correct
+    threshold them later. Sharpening the $Q$-values is done so that it becomes easier to select the correct
     action i.e., the one taken by $T$. I'm not sure how softening it helps with learning "secondary"
     knowledge, but I can refer to Hinton's paper for more details.
     {: .notice}

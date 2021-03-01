@@ -52,11 +52,13 @@ the global policy is able to perform novel tasks that cannot be achieved by reus
 where $e_t$ is a binary variable where $0$ selects the base policy, and $1$ selects the augmented
 policy
 
-The global policy $\pi_k(a_t|s_t,g)$ can thus be denoted compactly as -
+The global policy $\pi_k(a_t\|s_t,g)$ can thus be denoted compactly as -
 
-$$e_t \sim \pi_k^{\text{sw}}(e_t|s,g) \tag{\text{switch policy}}$$
-$$g_t' \sim \pi_k^{\text{instr}} (g'_t|s_t,g) \tag{\text{instruction policy}}$$
-$$a_t \sim \pi_k(a_t|s_t,g) = \pi_{k-1}(a_t|s_t,g')^{(1-e_t)}\pi_{k}^{\text{aug}}(a_t|s_t,g) \tag{\text{global policy}}$$
+$$e_t \sim \pi_k^{\text{sw}}(e_t|s,g) \tag{switch policy}$$
+
+$$g_t' \sim \pi_k^{\text{instr}} (g'_t|s_t,g) \tag{instruction policy}$$
+
+$$a_t \sim \pi_k(a_t|s_t,g) = \pi_{k-1}(a_t|s_t,g')^{(1-e_t)}\pi_{k}^{\text{aug}}(a_t|s_t,g) \tag{global policy}$$
 
 The global policy is augmented with the use of an STG (spatial temporal grammar) to capture temporal
 relationships between tasks. If a particular order of task selection has been used in the past, the

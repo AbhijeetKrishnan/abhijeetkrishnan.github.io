@@ -169,4 +169,4 @@ more interpretable sub-policies.
 
 *[NDPS]: neurally-directed program search
 *[DSL]: domain-specific language
-*[DDOG]: Deep Deterministic Policy Gradients
+*[DDPG]: Deep Deterministic Policy Gradients

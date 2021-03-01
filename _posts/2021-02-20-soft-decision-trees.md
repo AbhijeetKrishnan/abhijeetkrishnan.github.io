@@ -30,7 +30,7 @@ environment. $\pi(s)$ is the action distribution at state $s$. This dataset is u
 
 Can an agent which learns a Q-function be used to output this action distribution? It would depend
 on the action selection mechanism, but I think yes.
-{: .notice-success}
+{: .notice--success}
 
 An SDT is a hybrid tree-based model which combines binary decision trees with neural networks. A
 depth is predetermined, which fixes the tree structure. Each node takes as input a state and outputs
@@ -52,7 +52,8 @@ There should be a more concise term for *original agent*, or the 'agent for whic
 being provided'. A term I've seen used is *explanandum*, a Latin word for 'the phenomenon being
 explained'. I would like to modify it to indicate that the phenomenon in question is an RL model. A
 term used in biomimicry is *model* to denote the 'thing that is being mimicked', which communicates
-this sentiment well.
+this sentiment well. However, *model* already has a precise meaning in RL literature, so it might
+not be wise to overload it with this additional meaning.
 {: .notice--success}
 
 ## Results and Analysis
