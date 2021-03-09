@@ -1,6 +1,6 @@
 ---
 title: My Internship at Knexus Research
-tags: knexus, intern, personal, deep-dive
+tags: knexus intern personal deep-dive
 mathjax: true
 excerpt: "A retrospective of my time interning with Knexus Research, the problem I solved, and what I learned"
 ---
