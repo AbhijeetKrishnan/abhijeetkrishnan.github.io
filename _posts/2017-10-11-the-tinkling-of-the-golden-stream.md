@@ -1,6 +1,6 @@
 ---
 title: The Tinkling of the Golden Stream 
-tags: creative-writing poetry , humour 
+tags: creative-writing poetry humour 
 ---
 
 the golden stream is thin  
