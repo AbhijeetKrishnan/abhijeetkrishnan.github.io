@@ -4,7 +4,7 @@ Torlak & Popović (2017)"
 tags: paper-summary
 mathjax: true
 excerpt: "Summarizing and providing my notes on the paper - Synthesizing Interpretable Strategies
-for Solving Puzzle Games* by Butler, Torlak & Popović (2017)"
+for Solving Puzzle Games by Butler, Torlak & Popović (2017)"
 ---
 
 Butler, E., Torlak, E., & Popović, Z. (2017, August). Synthesizing interpretable strategies for
