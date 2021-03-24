@@ -6,7 +6,7 @@ excerpt: "Summarizing and providing my notes on the talk - How to write a great 
 ---
 
 Microsoft Research. (2016, July 16). How to Write a Great Research Paper [Video file]. Retrieved
-from https://youtu.be/VK51E3gHENc
+from <https://youtu.be/VK51E3gHENc>
 [<i class="fab fa-youtube"></i>](https://youtu.be/VK51E3gHENc)
 {: .notice--info}
 
