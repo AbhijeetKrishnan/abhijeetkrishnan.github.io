@@ -3,14 +3,14 @@ title: Projects
 permalink: /projects/
 ---
 
-## OpenAI Gym environment for Fanorona [<i class="fab fa-github"></i>](https://github.com/AbhijeetKrishnan/gym-fanorona)
+## Fanorona AEC Environment [<i class="fab fa-github"></i>](https://github.com/AbhijeetKrishnan/fanorona-aec)
 
 An implementation of the board game [Fanorona](https://en.wikipedia.org/wiki/Fanorona) as an
-environment for the OpenAI Gym interface. Some simple agents for the environment have also been
-coded, such as minimax and Q-learning. The project is intended to be a test bed for a research
-project involving extracting *interpretable strategies* which can be presented to a human player in
-order to improve their skill at Fanorona. It is expected that this work will extend to uncovering
-similar strategies for any other task on which an RL-agent is trained.
+environment [PettingZoo](https://github.com/PettingZoo-Team/PettingZoo) [AEC](https://arxiv.org/abs/2009.13051) 
+interface. The project is intended to be a test bed for a research project involving extracting
+*interpretable strategies* which can be presented to a human player in order to improve their skill
+at Fanorona. It is expected that this work will extend to uncovering similar strategies for any
+other task on which an RL-agent is trained.
 
 ## Terragen - a procedural terrain generator using Perlin noise [<i class="fab fa-github"></i>](https://github.com/AbhijeetKrishnan/terragen)
 
