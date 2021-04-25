@@ -3,8 +3,7 @@ title: Projects
 permalink: /projects/
 ---
 
-## Fanorona AEC Environment [<i class="fab fa-github"></i>](https://github.com/AbhijeetKrishnan/fanorona-aec)
-[<i class="fab fa-python"></i>](https://pypi.org/project/fanorona-aec/)
+## Fanorona AEC Environment [<i class="fab fa-github"></i>](https://github.com/AbhijeetKrishnan/fanorona-aec) [<i class="fab fa-python"></i>](https://pypi.org/project/fanorona-aec/)
 
 An implementation of the board game [Fanorona](https://en.wikipedia.org/wiki/Fanorona) as an
 environment [PettingZoo](https://github.com/PettingZoo-Team/PettingZoo) [AEC](https://arxiv.org/abs/2009.13051) 
