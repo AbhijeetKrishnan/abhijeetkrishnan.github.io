@@ -154,7 +154,7 @@ minds of TV show creators work). I found
 [this](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.8179&rep=rep1&type=pdf) paper
 which proposes an algorithm to do just this, since it isn't directly implemented in `networkx`.
 
-# Conclusion
+## Conclusion
 
 The usage of a classic graph algorithm to solve a problem I noticed in the world was satisfying to
 me. I can think of a few additional questions to ask like -
