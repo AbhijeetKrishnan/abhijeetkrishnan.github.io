@@ -6,7 +6,7 @@ excerpt: "Attempting to use bipartite graphs to help Breaking Bad with its uniqu
 credits."
 ---
 
-# Motivation
+## Motivation
 
 [Breaking Bad](https://en.wikipedia.org/wiki/Breaking_Bad) is one of the best television shows I've
 seen. I recently binge-watched the entire five seasons of the show. In doing so, I noticed the
@@ -17,7 +17,7 @@ and thought about writing a program to do this "elementalization" automatically.
 
 ![Breaking Bad elemental cast names example](/assets/images/elemental_cast.png "Examples of the cast names with highlighted elements")
 
-# Problem
+## Problem
 
 From observing how these elements are highlighted in the cast names, I made the following
 observations -
@@ -35,7 +35,7 @@ names if that symbol exists in their name in a valid way, which matches my earli
 Some names might have multiple possible assignments, and others might have none. The program should
 return all possible valid assignments for each name.
 
-# Solution
+## Solution
 
 As presented, the problem is easy to solve. Simply iterate through the list of names and for each,
 check if every possible elemental symbol is present in it and return that list. I manually compiled
@@ -86,7 +86,7 @@ restricting an element from being used for more than one cast member. It might b
 the common symbols like `H`, `S` and `O` are reused. What would an algorithm to obey this additional
 constraint look like?
 
-# Bipartite Graphs and Maximum Matching
+## Bipartite Graphs and Maximum Matching
 
 We cannot simply use a greedy algorithm of assigning the first available symbol to a name. Consider
 two hypothetical names *Br* and *B*. *Br* can use the symbols `B` and `Br`, while *B* can only use
