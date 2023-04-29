@@ -3,11 +3,11 @@ title: About Me
 permalink: /about/
 ---
 
-My name is Abhijeet Krishnan. I am currently a PhD student at NC State University under the co-advisement of [Dr. Arnav
-Jhala](https://facultyclusters.ncsu.edu/people/ahjhala) and [Dr. Chris
-Martens](https://sites.google.com/ncsu.edu/cmartens). My primary research interests are in investigating how
-reinforcement learning policies could be used to improve human skill at a task. My work is an interdisciplinary blend of
-machine learning and player modeling.
+My name is Abhijeet Krishnan. I am currently a PhD ~~student~~ candidate at NC State University under the co-advisement
+of [Dr. Arnav Jhala](https://facultyclusters.ncsu.edu/people/ahjhala) and [Dr. Chris
+Martens](https://sites.google.com/ncsu.edu/cmartens). My primary research interests are in investigating how we might
+develop human-oriented models of competitive game strategies and learn them automatically from gameplay. My work is an
+interdisciplinary blend of machine learning and player modeling.
 
 I like programming. I try to regularly work on side projects and upload them to my
 [GitHub](https://github.com/AbhijeetKrishnan). Some side projects I'm proud of are -
@@ -18,8 +18,7 @@ fa-github"></i>](https://github.com/AbhijeetKrishnan/r-tekken-bot)
 * a VS Code extension that implements Reddit's spoiler syntax for the in-built Markdown preview [<i class="fab
   fa-github"></i>](https://github.com/AbhijeetKrishnan/vscode-markdown-reddit-spoiler)
 * a Sokoban solvability predictor that uses machine learning to predict whether a given Sokoban level is likely to be
-  solvable [<i class="fab
-  fa-github"></i>](https://github.com/AbhijeetKrishnan/sokoban-solvability-predictor)
+  solvable [<i class="fab fa-github"></i>](https://github.com/AbhijeetKrishnan/sokoban-solvability-predictor)
 
 I like competitive coding. I compete ~~fairly regularly~~ occasionally on sites like
 [Codeforces](https://codeforces.com/profile/MystikNinja), [CodeChef](https://www.codechef.com/users/rashomon),
