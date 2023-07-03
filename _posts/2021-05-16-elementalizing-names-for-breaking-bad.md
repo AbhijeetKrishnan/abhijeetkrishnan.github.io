@@ -8,14 +8,14 @@ credits."
 
 ## Motivation
 
-[Breaking Bad](https://en.wikipedia.org/wiki/Breaking_Bad) is one of the best television shows I've
+[Breaking Bad](https://en.wikipedia.org/wiki/Breaking_Bad) is one of the finest television shows I've
 seen. I recently binge-watched the entire five seasons of the show. In doing so, I noticed the
 unique presentation of the opening credits where cast members have an elemental symbol from the
 periodic table highlighted in their name, reflecting the importance of chemistry in the show (and
 also calling back to the design of the title). I wondered how the showrunners might have done this,
 and thought about writing a program to do this "elementalization" automatically.
 
-![Breaking Bad elemental cast names example](/assets/images/elemental_cast.png "Examples of the cast names with highlighted elements")
+<img src="/assets/images/elemental_cast.png" alt="Examples of the cast names with highlighted elements" width="50%" height="50%"/>
 
 ## Problem
 
