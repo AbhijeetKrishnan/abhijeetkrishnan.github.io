@@ -11,7 +11,7 @@ this end, they wanted to know how long a bracket would take to run given a certa
 ## Double Elimination Brackets
 
 Fighting game tournaments traditionally use *double elimination brackets*. In single elimination brackets, you would keep playing
-a matches until you lose, after which you're eliminated from the tournament. In a double elimination tournament, you're instead
+matches until you lose, after which you're eliminated from the tournament. In a double elimination tournament, you're instead
 put into a *loser's* bracket (or *lower* bracket). If you win here, you're paired off with the losers from the *winner's* bracket (or *upper* bracket). It's only if you
 lose a second time that you're eliminated from the tournament. This gives competitors a second chance and makes for a more
 satisfying experience given fighting games can be quite volatile, and a loss might not represent a major difference in skill.
@@ -25,7 +25,7 @@ satisfying experience given fighting games can be quite volatile, and a loss mig
 
 To esimate the amount of time required to run a double elimination (DE) bracket with $N$ entrants, we can calculate how
 many rounds we'd have to run. This ignores practical issues, since competitors cannot instantaneously teleport to the next
-available station once their match is over, and even the matches take variable amounts of time to complete (say, $t_\text{match}$).
+available station once their match is over, and a match could take a variable amount of time to complete (say, $t_\text{match}$).
 However, if we have the number of rounds $R$, we can estimate the total time taken to run a tournament $T_\text{total}$ as 
 
 $$
