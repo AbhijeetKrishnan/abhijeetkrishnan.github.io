@@ -5,9 +5,9 @@ permalink: /about/
 
 My name is Abhijeet Krishnan. I am currently a PhD ~~student~~ candidate at NC State University under the co-advisement
 of [Dr. Arnav Jhala](https://facultyclusters.ncsu.edu/people/ahjhala) and [Dr. Chris
-Martens](https://sites.google.com/ncsu.edu/cmartens). My primary research interests are in investigating how we might
-develop human-oriented models of competitive game strategies and learn them automatically from gameplay. My work is an
-interdisciplinary blend of machine learning and player modeling.
+Martens](https://sites.google.com/ncsu.edu/cmartens). My primary research interests is in *interpretable strategy
+synthesis* - investigating how we might develop human-oriented computational models of competitive game strategies and
+learn them automatically via AI. My work is an interdisciplinary blend of machine learning and player modeling.
 
 I like programming. I try to regularly work on side projects and upload them to my
 [GitHub](https://github.com/AbhijeetKrishnan). Some side projects I'm proud of are -
@@ -36,3 +36,7 @@ I like graphic design. Check out the past editions of my UG institute magazine I
 I like writing. I've written for my undergraduate institute magazine as well as an informal student blog called [Eyes
 Only](https://magbloc.wordpress.com/). One of my poems has been featured in NC State's literary and arts magazine,
 [Windhover](https://windhover.ncsu.edu/battle-against-the-night/).
+
+I enjoy playing Tekken. I'm a semi-regular tournament player in the RDU area under the handle
+[Abhijeet](https://www.start.gg/user/b7db2adf). I also help out the [RDU Tekken](https://twitter.com/rdutekken)
+tournament organizers with Twitter posts and [YouTube](https://www.youtube.com/@rdutekken) thumbnails.
