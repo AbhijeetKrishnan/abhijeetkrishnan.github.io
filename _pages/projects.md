@@ -46,7 +46,7 @@ franchise. It automated the updates of the livestream widget that displayed the 
 as well as the Tekken Dojo system that awarded points to helpful users who answered newcomer questions, along with presenting a
 tabulated summary of the top-scorers and awarding them with a unique flair.
 
-## Terragen - a procedural terrain generator using Perlin noise [<i class="fab fa-github"></i>](https://github.com/AbhijeetKrishnan/terragen)
+## Terragen - a procedural terrain generator using Perlin noise [<i class="fas fa-external-link-alt"></i>](http://abhijeetkrishnan.me/terragen/) [<i class="fab fa-github"></i>](https://github.com/AbhijeetKrishnan/terragen)
 
 A project developed for the final submission of CSC 562: Game Engine Design. It is a Javascript web application which
 uses Perlin noise to generate simple 3D heightmaps using WebGL. It adds tree-like objects to the map (also using Perlin
