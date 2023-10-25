@@ -5,7 +5,7 @@ permalink: /about/
 
 My name is Abhijeet Krishnan. I am currently a PhD ~~student~~ candidate at NC State University under the co-advisement
 of [Dr. Arnav Jhala](https://facultyclusters.ncsu.edu/people/ahjhala) and [Dr. Chris
-Martens](https://sites.google.com/ncsu.edu/cmartens). My primary research interests is in *interpretable strategy
+Martens](https://sites.google.com/ncsu.edu/cmartens). My primary research interest is in *interpretable strategy
 synthesis* - investigating how we might develop human-oriented computational models of competitive game strategies and
 learn them automatically via AI. My work is an interdisciplinary blend of machine learning and player modeling.
 
