@@ -101,7 +101,7 @@ $$
 I wrote a Python script to implement this formula. I also coded up DocMassacre's Monte Carlo simulation to provide a
 comparison, using 1000 trials.
 
-```python
+{% highlight python linenos %}
 import math
 import random
 
@@ -155,7 +155,7 @@ if __name__ == '__main__':
     for round_win_prob in (x * 0.01 for x in list(range(0, 70, 5)) + list(range(70, 101))):
         print(f'{round_win_prob:.2f}\t{n_man_bracket_prob(ftn_prob, n, round_win_prob):.10f}\t{n_man_bracket_prob(sim_prob, n, round_win_prob):.10f}')
 
-```
+{% endhighlight %}
 
 Here are the results -
 
