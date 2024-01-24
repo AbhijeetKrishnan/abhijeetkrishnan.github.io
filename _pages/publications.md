@@ -31,7 +31,7 @@ fa-file-powerpoint"></i>](/assets/docs/AIIDE_22_SG_Presentation.pdf)
 - **Krishnan, Abhijeet**. "Interpretable Strategy Synthesis for Competitive Games" *Submitted to the Department of
 Computer Science at North Carolina State University in partial fulfilment for the Doctoral Oral Preliminary Qualifier
 Exam*. 2023. [<i class="fas fa-external-link-alt"></i>](https://abhijeetkrishnan.me/Oral-Website/) [<i class="far
-  fa-file-pdf"></i>](/assets/docs/AbhijeetKrishnan-thesis-proposal-v4) [<i class="far
+  fa-file-pdf"></i>](/assets/docs/AbhijeetKrishnan-thesis-proposal-v4.pdf) [<i class="far
 fa-file-powerpoint"></i>](/assets/docs/AbhijeetKrishnan-thesis-proposal-slides.pdf)
 - **Krishnan, Abhijeet**. "Investigating the Application of Action Model Learning for Player Modeling" *Submitted to the
   Department of Computer Science at North Carolina State University in partial fulfillment for the Doctoral Written

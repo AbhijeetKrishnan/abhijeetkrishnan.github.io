@@ -150,9 +150,9 @@ I can imagine the showrunners might want to focus the more dramatic elemental sy
 two-character ones) on the first-billed cast displayed first (e.g. assigning `Br` to *Bryan
 Cranston* instead of *Betsy Brandt*). I can also imagine one might want to iterate through multiple
 assignments to find something more appropriate than the first one returned (I don't know how the
-minds of TV show creators work). I found
-[this](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.8179&rep=rep1&type=pdf) paper
-which proposes an algorithm to do just this, since it isn't directly implemented in `networkx`.
+minds of TV show creators work). Refer to
+[Uno, T. (1997)](https://link.springer.com/chapter/10.1007/3-540-63890-3_11)
+which proposes an algorithm for this, since it isn't directly implemented in `networkx`.
 
 ## Conclusion
 

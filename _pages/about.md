@@ -22,7 +22,7 @@ fa-github"></i>](https://github.com/AbhijeetKrishnan/r-tekken-bot)
 
 I like competitive coding. I compete ~~fairly regularly~~ occasionally on sites like
 [Codeforces](https://codeforces.com/profile/MystikNinja), [CodeChef](https://www.codechef.com/users/rashomon),
-[AtCoder](https://atcoder.jp/users/MystikNinja) [HackerRank](https://www.hackerrank.com/MystikNinja) and
+[AtCoder](https://atcoder.jp/users/winn0w) [HackerRank](https://www.hackerrank.com/MystikNinja) and
 [HackerEarth](https://www.hackerearth.com/@rashomon), among others.
 
 I like playing chess. I used to play tournaments when younger, and got to meet [Dhanraj
@@ -35,8 +35,8 @@ I like graphic design. Check out the past editions of my UG institute magazine I
 
 I like writing. I've written for my undergraduate institute magazine as well as an informal student blog called [Eyes
 Only](https://magbloc.wordpress.com/). One of my poems has been featured in NC State's literary and arts magazine,
-[Windhover](https://windhover.ncsu.edu/battle-against-the-night/).
+[Windhover](https://orgs.ncsu.edu/windhover/battle-against-the-night/).
 
-I enjoy playing Tekken. I'm a semi-regular tournament player in the RDU area under the handle
-[Abhijeet](https://www.start.gg/user/b7db2adf). I also help out the [RDU Tekken](https://twitter.com/rdutekken)
-tournament organizers with Twitter posts and [YouTube](https://www.youtube.com/@rdutekken) thumbnails.
+I enjoy playing Tekken. I'm a semi-regular [tournament player](https://www.start.gg/user/b7db2adf) in the RDU area under
+the handle. I also help out the [RDU Tekken](https://twitter.com/rdutekken) tournament organizers with Twitter posts and
+[YouTube](https://www.youtube.com/@rdutekken) thumbnails.

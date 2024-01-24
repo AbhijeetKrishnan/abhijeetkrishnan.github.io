@@ -24,7 +24,7 @@ which automatically generates slide templates based on the content in them)
 - automate tedium (e.g., Adobe Photoshop's [content-aware fill](https://helpx.adobe.com/photoshop/using/content-aware-fill.html) 
 which can automatically and accurately fill in blank spaces in images based on the surrounding
 content)
-- creative collaboration (e.g., [Drawing Apprentice](https://adam.cc.gatech.edu/DrawingApprentice/)
+- creative collaboration (e.g., [Drawing Apprentice](https://expressivemachinery.gatech.edu/projects/drawing-apprentice/)
 uses an AI to co-create art with you that wouldn't be possible for a single artist)
 
 It can be applied to games by -

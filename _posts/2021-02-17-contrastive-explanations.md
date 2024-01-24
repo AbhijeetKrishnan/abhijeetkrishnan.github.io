@@ -131,7 +131,7 @@ chose complementary features are statistically significant.
 
 ## Discussion
 
-The paper builds on existing work by [Hayes & Shah (2017)](/posts/2021-02-09-robot-controller-transparency.md).
+The paper builds on existing work by [Hayes & Shah (2017)]({% post_url 2021-02-09-robot-controller-transparency %}).
 The authors identify a flaw in the explanations generated using the method in Hayes & Shah (2017) as
 only explaining *what* the agent does, and not *why* it does it. Specifically, it does not explain
 the correlations between states and policy in terms of rewards and state transitions. This method
