@@ -41,7 +41,7 @@ Let's say the rook is located at coordinates $(3, 0)$.
 |9| 4| 2| 5| 8|
 |2| 1| 4| 7| 9|
 
-Given it's starting square is of value $8$, it can only move (vertically or
+Given its starting square is of value $8$, it can only move (vertically or
 horizontally) to squares that are of value strictly lower than $8$.
 
 |✅|3|1|4|5|
