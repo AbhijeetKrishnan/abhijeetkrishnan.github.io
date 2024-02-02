@@ -12,7 +12,7 @@ credits."
 seen. I recently binge-watched the entire five seasons of the show. In doing so, I noticed the
 unique presentation of the opening credits where cast members have an elemental symbol from the
 periodic table highlighted in their name, reflecting the importance of chemistry in the show (and
-also calling back to the design of the title). I wondered how the showrunners might have done this,
+also calling back to the design of the title). I wondered how the show runners might have done this,
 and thought about writing a program to do this "elementalization" automatically.
 
 <img src="/assets/images/elemental_cast.png" alt="Examples of the cast names with highlighted elements" width="50%" height="50%"/>
@@ -27,7 +27,7 @@ observations -
 * the same element can be assigned to multiple cast members (e.g. in S2E7 'Negro y Azul', `Ar` is
   assigned to both actor Aaron Paul and producer Stewart A. Lyons)
 * elements don't cross name boundaries (e.g. `Ar` cannot be assigned to Cynthia Rodgers)
-* case doesn't matter - wherever the symbol gets assigned, the first letter is capitalized and the
+* case doesn't matter - wherever the symbol gets assigned, the first letter is capitalized, and the
   rest are in lowercase
 
 The problem then is to assign elemental symbols (e.g. `H`, `Li`, `Na`) to a list of cast member
@@ -62,7 +62,7 @@ For the first-billed [cast](https://www.imdb.com/title/tt0959621/) from the Pilo
 following output -
 
 ```bash
-defaultdict(<class 'list'>, {
+{
     'bryan cranston': ['b', 'c', 'n', 'o', 's', 'cr', 'br', 'y', 'ra'], 
     'anna gunn': ['n', 'na', 'u'], 
     'aaron paul': ['n', 'o', 'p', 'ar', 'au', 'pa', 'u'], 
@@ -78,7 +78,7 @@ defaultdict(<class 'list'>, {
     'carmen serano': ['c', 'n', 'o', 's', 'ar', 'ca', 'se', 'er', 'ra', 'no'], 
     'evan bobrick': ['b', 'c', 'n', 'o', 'k', 'v', 'br', 'i'], 
     'roberta marquez seret': ['be', 'b', 'o', 's', 'ar', 'se', 'er', 'ta', 're', 'u']
-})
+}
 ```
 
 We could stop here. However, it was interesting to me to think about the additional constraint of
@@ -93,9 +93,9 @@ two hypothetical names *Br* and *B*. *Br* can use the symbols `B` and `Br`, whil
 the symbol `B`. If we first assign `B` to *Br*, then we won't have any symbol for *B*, even though
 we would have had one had we used `Br` in the first place. We could think of backtracking and trying
 different assignments if we encounter an impossibility, but we wouldn't know if there actually is an
-impossibility or not until we exhaust all options, which would take a *long* time.
+impossibility or not until we exhaust all options, which could take a *long* time.
 
-We can instead model this problem using a bipartite graph. One one side, we have a set of nodes,
+We can instead model this problem using a *bipartite graph*. On one side, we have a set of nodes,
 each containing the name of a cast member. On the other side, we have another set of nodes, each
 containing an elemental symbol. Using the previous solution, we can construct edges between these
 two sets of nodes, connecting a name to every elemental symbol that can be assigned to it. We need
@@ -108,7 +108,6 @@ This is exactly the problem of finding a [*maximum
 matching*](https://en.wikipedia.org/wiki/Maximum_cardinality_matching) in a bipartite graph. There
 are many well-known algorithms to solve this. We will use the [Hopcroft-Karp
 algorithm](https://en.wikipedia.org/wiki/Hopcroft%E2%80%93Karp_algorithm) as implemented in the
-excellent
 [`networkx`](https://networkx.org/documentation/stable/reference/algorithms/bipartite.html) package.
 
 ```python
@@ -146,7 +145,7 @@ The output using the cast from the Pilot again is -
 }
 ```
 
-I can imagine the showrunners might want to focus the more dramatic elemental symbols (i.e. the
+I can imagine the show runners might want to focus the more "dramatic" elemental symbols (i.e. the
 two-character ones) on the first-billed cast displayed first (e.g. assigning `Br` to *Bryan
 Cranston* instead of *Betsy Brandt*). I can also imagine one might want to iterate through multiple
 assignments to find something more appropriate than the first one returned (I don't know how the
