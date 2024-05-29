@@ -37,6 +37,6 @@ I like writing. I've written for my undergraduate institute magazine as well as 
 Only](https://magbloc.wordpress.com/). One of my poems has been featured in NC State's literary and arts magazine,
 [Windhover](https://orgs.ncsu.edu/windhover/battle-against-the-night/).
 
-I enjoy playing Tekken. I'm a semi-regular [tournament player](https://www.start.gg/user/b7db2adf) in the RDU area under
-the handle. I also help out the [RDU Tekken](https://twitter.com/rdutekken) tournament organizers with Twitter posts and
+I enjoy playing Tekken. I'm a semi-regular tournament player in the RDU area under
+the handle [winn0w](https://www.start.gg/user/b7db2adf). I also help out the [RDU Tekken](https://twitter.com/rdutekken) tournament organizers with Twitter posts and
 [YouTube](https://www.youtube.com/@rdutekken) thumbnails.

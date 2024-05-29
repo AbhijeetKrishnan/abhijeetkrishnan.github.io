@@ -146,13 +146,13 @@ Based on the graph of observed frequencies, it seems likely that the current ran
 [^5]: Al Sweigart, the author of the popular Python book [Automate the Boring Stuff With Python](https://automatetheboringstuff.com/), has a nice [blog post](https://inventwithpython.com/blog/2018/02/05/python-tuples-are-immutable-except-when-theyre-mutable/) explaining the difference between mutable and immutable types in Python and how operators which use them work.
 [^6]: [https://pyperf.readthedocs.io/en/latest/run_benchmark.html#how-to-get-reproductible-benchmark-results](https://pyperf.readthedocs.io/en/latest/run_benchmark.html#how-to-get-reproductible-benchmark-results)
 [^7]: From the `pyperformance` [usage notes](https://pyperformance.readthedocs.io/usage.html#notes) -
-    > pyperformance will run Student’s two-tailed T test on the benchmark results at the 95% confidence level to indicate whether the observed difference is statistically significant.
+    > pyperformance will run Student's two-tailed T test on the benchmark results at the 95% confidence level to indicate whether the observed difference is statistically significant.
 
     The comparison outputs the t-statistic directly.
 
 [^8]: We would want to increase it to as wide of an interval as permissible. [Comments in the code](https://github.com/python/cpython/blob/v3.9.1/Include/longintrepr.h#L37-L38) mention that it can be as wide as a `digit` type. A `digit` is a Python/C API-specific datatype which [seems to be equivalent](https://github.com/python/cpython/blob/v3.9.1/Include/longintrepr.h#L45) to a C `int`.
 
 [^9]: From the `pyperformance` [usage notes](https://pyperformance.readthedocs.io/usage.html#notes) -
-    > If `--track_memory` is passed, pyperformance will continuously sample the benchmark’s memory usage. This currently only works on Linux 2.6.16 and higher or Windows with PyWin32. Because `--track_memory` introduces performance jitter while collecting memory measurements, only memory usage is reported in the final report.
+    > If `--track_memory` is passed, pyperformance will continuously sample the benchmark's memory usage. This currently only works on Linux 2.6.16 and higher or Windows with PyWin32. Because `--track_memory` introduces performance jitter while collecting memory measurements, only memory usage is reported in the final report.
 
 *[PAIOC]: pre-allocated integer object creation

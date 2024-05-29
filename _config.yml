@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Abhijeet Krishnan"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "Don't just consume. Create."
+  bio              : ""
   links:
     - label: "Venture IV, Raleigh, NC"
       icon: "fas fa-fw fa-map-marker-alt"
@@ -308,3 +308,16 @@ defaults:
     values:
       layout: single
       author_profile: false
+#   # _writing
+#   - scope:
+#       path: ""
+#       type: writing
+#     values:
+#       layout: single
+#       author_profile: false
+#       share: true
+
+# collections:
+#   writing:
+#     output: true
+#     permalink: /:collection/:path

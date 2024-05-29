@@ -31,7 +31,7 @@ If you're running Jekyll v3.7+ and self-hosting you can quickly install the them
 
 ### Gem-based method
 
-With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`, and `_sass` are stored in the theme’s gem, hidden from your immediate view. This allows for easier installation and updating as you don't have to manage any of the theme files. 
+With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`, and `_sass` are stored in the theme's gem, hidden from your immediate view. This allows for easier installation and updating as you don't have to manage any of the theme files. 
 
 To install as a Gem-based theme:
 

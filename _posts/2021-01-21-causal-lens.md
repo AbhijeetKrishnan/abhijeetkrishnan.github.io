@@ -78,7 +78,7 @@ The paper presents a computational evaluation of the action influence model usin
 The paper hypothesizes two things -
 
 1. Causal-model-based explanations build better mental models of the agent leading to a better **understanding** of its strategies.
-2. Better understanding of an agent’s strategies promotes **trust** in the agent.
+2. Better understanding of an agent's strategies promotes **trust** in the agent.
 
 The authors use StarCraft II as their testbed. They use a reduced version of it with smaller action and state spaces. To test $H_1$, they use task prediction. They use a 5-point Likert scale to measure explanation satisfaction and trust ($H_2$).
 
