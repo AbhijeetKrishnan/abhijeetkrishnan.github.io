@@ -5,11 +5,11 @@ permalink: /publications/
 
 ## Peer-Reviewed
 
-- **Krishnan, Abhijeet**, Colin M. Potts, Arnav Jhala, Harshad Khadilkar, Shirish
-  Karande and Chris Martens. "Learning Explainable Representations of Complex
-  Game-playing Strategies." _Proceedings of the Eleventh Annual Conference on Advances in Cognitive Systems_.
-  2024 (to appear). [<i class="far
-fa-file-pdf"></i>](/assets/docs/ACS_2024_Learning_Explainable_Representations_Of_Complex_Game-Playing_Strategies.pdf)
+- **Krishnan, Abhijeet**, Colin M. Potts, Arnav Jhala, Harshad Khadilkar, Shirish Karande and Chris Martens. "Learning
+  Explainable Representations of Complex Game-playing Strategies." _Proceedings of the Eleventh Annual Conference on
+  Advances in Cognitive Systems_. 2024 (to appear). [<i class="far
+  fa-file-pdf"></i>](/assets/docs/ACS_2024_Learning_Explainable_Representations_Of_Complex_Game-Playing_Strategies.pdf)
+[<i class="far fa-file-pdf"></i>](/assets/docs/ACS_2024_Poster.pdf)
 - **Krishnan, Abhijeet** and Chris Martens. "Synthesizing Chess Tactics from Player Games." In *Workshop on Artificial
 Intelligence for Strategy Games (SG) and Esports Analytics (EA), 18th AAAI Conference on Artificial Intelligence and
 Interactive Digital Entertainment*. 2022. [<i class="fas
@@ -22,7 +22,8 @@ fa-file-powerpoint"></i>](/assets/docs/AIIDE_22_SG_Presentation.pdf)
   fa-file-pdf"></i>](/assets/docs/Interpretable_Chess_Tactics.pdf) [<i class="far
   fa-file-powerpoint"></i>](/assets/docs/EAAI_22_Presentation.pdf)
 - **Krishnan, Abhijeet**, Aaron Williams, and Chris Martens. "Towards Action Model Learning for Player Modeling."
-  *Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment*. Vol. 16. No. 1. 2020. [<i class="fas fa-external-link-alt"></i>](https://www.aaai.org/ojs/index.php/AIIDE/article/view/7436) [<i
+  *Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment*. Vol. 16. No. 1.
+  2020. [<i class="fas fa-external-link-alt"></i>](https://www.aaai.org/ojs/index.php/AIIDE/article/view/7436) [<i
   class="far fa-file-pdf"></i>](/assets/docs/AML_for_Player_Modeling.pdf) [<i class="fab
   fa-github"></i>](https://github.com/AbhijeetKrishnan/aml-for-player-modeling) [<i class="fab
   fa-youtube"></i>](https://youtu.be/N2rfOBfT-ZE)
