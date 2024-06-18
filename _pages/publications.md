@@ -22,8 +22,7 @@ fa-file-powerpoint"></i>](/assets/docs/AIIDE_22_SG_Presentation.pdf)
   fa-file-pdf"></i>](/assets/docs/Interpretable_Chess_Tactics.pdf) [<i class="far
   fa-file-powerpoint"></i>](/assets/docs/EAAI_22_Presentation.pdf)
 - **Krishnan, Abhijeet**, Aaron Williams, and Chris Martens. "Towards Action Model Learning for Player Modeling."
-  *Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment*. Vol. 16. No. 1.
-  2020. [<i class="fas fa-external-link-alt"></i>](https://www.aaai.org/ojs/index.php/AIIDE/article/view/7436) [<i
+  *Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment*. Vol. 16. No. 1. 2020. [<i class="fas fa-external-link-alt"></i>](https://www.aaai.org/ojs/index.php/AIIDE/article/view/7436) [<i
   class="far fa-file-pdf"></i>](/assets/docs/AML_for_Player_Modeling.pdf) [<i class="fab
   fa-github"></i>](https://github.com/AbhijeetKrishnan/aml-for-player-modeling) [<i class="fab
   fa-youtube"></i>](https://youtu.be/N2rfOBfT-ZE)
