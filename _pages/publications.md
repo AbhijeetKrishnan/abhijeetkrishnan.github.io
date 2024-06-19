@@ -9,7 +9,7 @@ permalink: /publications/
   Explainable Representations of Complex Game-playing Strategies." _Proceedings of the Eleventh Annual Conference on
   Advances in Cognitive Systems_. 2024 (to appear). [<i class="far
   fa-file-pdf"></i>](/assets/docs/ACS_2024_Learning_Explainable_Representations_Of_Complex_Game-Playing_Strategies.pdf)
-[<i class="far fa-file-pdf"></i>](/assets/docs/ACS_2024_Poster.pdf)
+[<i class="far fa-file-powerpoint"></i>](/assets/docs/ACS_2024_Poster.pdf)
 - **Krishnan, Abhijeet** and Chris Martens. "Synthesizing Chess Tactics from Player Games." In *Workshop on Artificial
 Intelligence for Strategy Games (SG) and Esports Analytics (EA), 18th AAAI Conference on Artificial Intelligence and
 Interactive Digital Entertainment*. 2022. [<i class="fas
@@ -30,7 +30,7 @@ fa-file-powerpoint"></i>](/assets/docs/AIIDE_22_SG_Presentation.pdf)
 - **Krishnan, Abhijeet** and Chris Martens. "Rule-based Cognitive Modeling via Human-Computer Interaction". Poster
   presented at: 5th LAS Research Symposium; 2019 Dec 10; Raleigh, NC. [<i class="fas
   fa-external-link-alt"></i>](https://ncsu-las.org/symposium/symposium-2019/) [<i class="far
-  fa-file-pdf"></i>](/assets/docs/las_2019_poster_rule_based_modeling.pdf)
+  fa-file-powerpoint"></i>](/assets/docs/las_2019_poster_rule_based_modeling.pdf)
 
 ## Doctoral Exams
 
