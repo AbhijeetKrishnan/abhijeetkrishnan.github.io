@@ -7,7 +7,7 @@ permalink: /publications/
 
 - **Krishnan, Abhijeet**, Colin M. Potts, Arnav Jhala, Harshad Khadilkar, Shirish Karande and Chris Martens. "Learning
   Explainable Representations of Complex Game-playing Strategies." _Proceedings of the Eleventh Annual Conference on
-  Advances in Cognitive Systems_. 2024 (to appear). [<i class="far
+  Advances in Cognitive Systems_. 2024. [<i class="far
   fa-file-pdf"></i>](/assets/docs/ACS_2024_Learning_Explainable_Representations_Of_Complex_Game-Playing_Strategies.pdf)
 [<i class="far fa-file-powerpoint"></i>](/assets/docs/ACS_2024_Poster.pdf)
 - **Krishnan, Abhijeet** and Chris Martens. "Synthesizing Chess Tactics from Player Games." In *Workshop on Artificial
