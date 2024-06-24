@@ -26,7 +26,7 @@ fa-file-powerpoint"></i>](/assets/docs/AIIDE_22_SG_Presentation.pdf)
   class="far fa-file-pdf"></i>](/assets/docs/AML_for_Player_Modeling.pdf) [<i class="fab
   fa-github"></i>](https://github.com/AbhijeetKrishnan/aml-for-player-modeling) [<i class="fab
   fa-youtube"></i>](https://youtu.be/N2rfOBfT-ZE)
-- **Krishnan, Abhijeet** and Chris Martens. "Rule-based Cognitive Modeling via Human-Computer Interaction". Poster
+- **Krishnan, Abhijeet** and Chris Martens. "Rule-based Cognitive Modeling via Human-Computer Interaction." Poster
   presented at: 5th LAS Research Symposium; 2019 Dec 10; Raleigh, NC. [<i class="fas
   fa-external-link-alt"></i>](https://ncsu-las.org/symposium/symposium-2019/) [<i class="far
   fa-file-powerpoint"></i>](/assets/docs/las_2019_poster_rule_based_modeling.pdf)
